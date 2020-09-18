@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:orientation="vertical"
+    android:background="@drawable/login2">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="31dp"
+        android:hint="Email"
+        android:textSize="25sp"
+        android:textColorHint="#60A783"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="37dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#60A783"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="115dp"
+        android:background="@drawable/custom_button"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="67dp"
+        android:layout_height="35dp"
+        android:background="@drawable/button"
+        android:text="Back"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

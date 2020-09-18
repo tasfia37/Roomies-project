@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+  >
+
+    <ImageView
+        android:id="@+id/MatchImage"
+        android:layout_width="130dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:paddingLeft="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+            <TextView
+                android:paddingBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matche's Name"
+                android:layout_gravity="center"
+                android:id="@+id/MatchName"
+                android:textSize="18sp"/>
+            <TextView
+                android:paddingBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matche's ID"
+                android:layout_gravity="center"
+                android:id="@+id/Matchid"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:paddingBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Sex"
+                android:layout_gravity="center"
+                android:id="@+id/UserSex"
+                android:textSize="18sp"/>
+            <TextView
+                android:paddingBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department"
+                android:layout_gravity="center"
+                android:id="@+id/Department"
+                android:textSize="18sp"/>
+            <TextView
+                android:paddingBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Batch"
+                android:layout_gravity="center"
+                android:id="@+id/Batch"
+                android:textSize="18sp"/>
+            <ImageView
+                android:id="@+id/image_delete"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_delete"
+                />
+
+
+    </LinearLayout>
+</LinearLayout>
